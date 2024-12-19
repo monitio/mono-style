@@ -1,0 +1,36 @@
+name: Release on File Change
+
+on:
+  push:
+    paths:
+      - src/monostyle.omp.json  # Path to the file you want to monitor
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Get Current Date
+        id: date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Get Raw File URL
+        id: raw_url
+        run: |
+          REPO_URL="https://raw.githubusercontent.com/${{ github.repository }}"
+          FILE_PATH="src/monostyle.omp.json"  # Replace with the specific file path
+          echo "raw_url=${REPO_URL}/main/${FILE_PATH}" >> $GITHUB_ENV
+
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: "v${{ env.date }}-latest-style"
+          release_name: "${{ env.date }} latest style"
+          body: "The updated file can be accessed [here](${{ env.raw_url}})"
+          draft: false
+          prerelease: false
