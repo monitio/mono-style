@@ -36,7 +36,7 @@
           "type": "status"
         },
         {
-          "foreground": "#66F68F",
+          "foreground": "#4d4d4d",
           "properties": {
             "time_format": "15:04"
           },
