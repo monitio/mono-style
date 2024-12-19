@@ -24,6 +24,13 @@ jobs:
           FILE_PATH="src/monostyle.omp.json"  # Replace with the specific file path
           echo "raw_url=${REPO_URL}/main/${FILE_PATH}" >> $GITHUB_ENV
 
+      - name: Check Token Permissions
+        run: |
+          echo "Checking token permissions..."
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/
+
       - name: Create Release
         uses: actions/create-release@v1
         env:
