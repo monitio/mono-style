@@ -20,7 +20,7 @@
             "fetch_status": false
           },
           "style": "plain",
-          "template": "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
+          "template": "<#b2b2b2>git:(</>{{ .HEAD }}<#8c8c8c>)</>",
           "type": "git"
         },
         {
@@ -35,7 +35,7 @@
             "time_format": "15:04"
           },
           "style": "plain",
-          "template": " {{ .CurrentDate | date .Format }} ",
+          "template": "{{ .CurrentDate | date .Format }} ",
           "type": "time"
         },
         {
