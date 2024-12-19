@@ -11,7 +11,7 @@
           "type": "text"
         },
         {
-          "foreground": "#56B6C2",
+          "foreground": "#e7e7e7",
           "properties": {
             "style": "folder"
           },
