@@ -5,12 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#ffffff",
-          "style": "plain",
-          "template": "<#b2b2b2>\u276f</><#8c8c8c>\u276f</>",
-          "type": "text"
-        },
-        {
           "foreground": "#e7e7e7",
           "properties": {
             "style": "folder"
@@ -20,7 +14,7 @@
           "type": "path"
         },
         {
-          "foreground": "#D0666F",
+          "foreground": "#656565",
           "properties": {
             "branch_icon": "",
             "fetch_status": false
@@ -30,7 +24,7 @@
           "type": "git"
         },
         {
-          "foreground": "#DCB977",
+          "foreground": "#656565",
           "style": "plain",
           "template": " \uf119",
           "type": "status"
@@ -43,6 +37,12 @@
           "style": "plain",
           "template": " {{ .CurrentDate | date .Format }} ",
           "type": "time"
+        },
+        {
+          "foreground": "#ffffff",
+          "style": "plain",
+          "template": "<#b2b2b2>\u276f</><#8c8c8c>\u276f</>",
+          "type": "text"
         }
       ],
       "type": "prompt"
