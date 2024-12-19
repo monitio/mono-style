@@ -26,7 +26,7 @@
         {
           "foreground": "#656565",
           "style": "plain",
-          "template": " \uf119",
+          "template": " \uf119 ",
           "type": "status"
         },
         {
