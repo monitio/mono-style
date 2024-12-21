@@ -33,9 +33,9 @@
           "type": "git"
         },
         {
-          "foreground": "#656565",
+          "foreground": "#FF0000",
           "style": "plain",
-          "template": "\uf119 ",
+          "template": "X ",
           "type": "status"
         },
         {
