@@ -14,6 +14,16 @@
           "type": "path"
         },
         {
+          "foreground": "#656565",
+          "properties": {
+            "branch_icon": "",
+            "fetch_status": false
+          },
+          "style": "plain",
+          "template": "<#b2b2b2>git:(</>{{ .HEAD }}<#8c8c8c>)</> ",
+          "type": "git"
+        },
+        {
           "foreground": "#4d4d4d",
           "properties": {
             "time_format": "15:04"
@@ -21,16 +31,6 @@
           "style": "plain",
           "template": "{{ .CurrentDate | date .Format }} ",
           "type": "time"
-        },
-        {
-          "foreground": "#656565",
-          "properties": {
-            "branch_icon": "",
-            "fetch_status": false
-          },
-          "style": "plain",
-          "template": "<#b2b2b2>git:(</>{{ .HEAD }}<#8c8c8c>)</>",
-          "type": "git"
         },
         {
           "foreground": "#FF0000",
