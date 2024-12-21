@@ -35,13 +35,13 @@
         {
           "foreground": "#656565",
           "style": "plain",
-          "template": " \uf119 ",
+          "template": "\uf119 ",
           "type": "status"
         },
         {
           "foreground": "#ffffff",
           "style": "plain",
-          "template": "<#b2b2b2>\u276f</><#8c8c8c>\u276f</> ",
+          "template": " <#b2b2b2>\u276f</><#8c8c8c>\u276f</> ",
           "type": "text"
         }
       ],
