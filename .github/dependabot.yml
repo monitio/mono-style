@@ -1,7 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: "npm"  # For Node.js projects (change to "pip" for Python, "maven" for Java, etc.)
-    directory: "/"  # Location of the package manager file, e.g., "/" for a root directory, or "/backend" for a backend folder.
-    schedule:
-      interval: "weekly"  # Frequency of checks (e.g., "daily", "weekly", "monthly")
-      
