@@ -1,0 +1,10 @@
+/* Mono-style - By Monitio */
+/* CSS - RGB */
+
+:root {
+  --white: rgba(255, 255, 255, 1);
+  --platinum: rgba(231, 231, 231, 1);
+  --dim-gray: rgba(101, 101, 101, 1);
+  --davys-gray: rgba(77, 77, 77, 1);
+  --red: rgba(255, 0, 0, 1);
+}

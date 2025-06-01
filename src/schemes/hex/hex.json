@@ -1,0 +1,11 @@
+{
+  "name": "mono-style-hex",
+  "description": "An style based on a monochromatic colour palette for any one to use.",
+  "colors": {
+    "White": "#FFFFFF",
+    "Platinum": "#E7E7E7",
+    "Dim-Gray": "#656565",
+    "Davys-Gray": "#4D4D4D",
+    "Red": "#FF0000"
+  }
+}

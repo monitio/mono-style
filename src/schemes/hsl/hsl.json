@@ -1,0 +1,11 @@
+{
+  "name": "mono-style-hsl",
+  "description": "An style based on a monochromatic colour palette for any one to use.",
+  "colors": {
+    "White": "hsl(0, 0%, 100%)",
+    "Platinum": "hsl(0, 0%, 91%)",
+    "Dim-Gray": "hsl(0, 0%, 40%)",
+    "Davys-Gray": "hsl(0, 0%, 30%)",
+    "Red": "hsl(0, 100%, 50%)"
+  }
+}

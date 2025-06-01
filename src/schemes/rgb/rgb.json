@@ -1,0 +1,11 @@
+{
+  "name": "mono-style-rgb",
+  "description": "An style based on a monochromatic colour palette for any one to use.",
+  "colors": {
+    "White": "rgb(255, 255, 255)",
+    "Platinum": "rgb(231, 231, 231)",
+    "Dim-Gray": "rgb(101, 101, 101)",
+    "Davys-Gray": "rgb(77, 77, 77)",
+    "Red": "rgb(255, 0, 0)"
+  }
+}

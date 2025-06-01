@@ -1,0 +1,5 @@
+White: hsl(0, 0%, 100%)
+Platinum: hsl(0, 0%, 91%)
+Dim-Gray: hsl(0, 0%, 40%)
+Davys-Gray: hsl(0, 0%, 30%)
+Red: hsl(0, 100%, 50%)

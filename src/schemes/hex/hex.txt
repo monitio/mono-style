@@ -1,0 +1,5 @@
+White: #FFFFFF
+Platinum: #E7E7E7
+Dim-Gray: #656565
+Davys-Gray: #4D4D4D
+Red: #FF0000

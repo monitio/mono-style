@@ -1,0 +1,30 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Optional cache and logs
+.cache/
+.npm/
+dist/
+build/
+coverage/
+.env
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+.idea/
+*.log
