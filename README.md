@@ -20,25 +20,25 @@ An style based on a monochromatic colour palette for any one to use.
 ---
 
 ## Images:
-*Oh-My-Posh - Powershell - Windows*
+*Oh-My-Posh - Powershell - Windows*:
 
 <br>
 
 ![powershell](./src/images/powershell.png)
 ---
-*HSL - palette*
+*HSL - palette*:
 
 <br>
 
 ![hsl palette](./src/schemes/hsl/images/palette.png)
 ---
-*RGB - palette*
+*RGB - palette*:
 
 <br>
 
 ![rgb palette](./src/schemes/rgb/images/palette.png)
 ---
-*HEX - palette*
+*HEX - palette*:
 
 <br>
 
